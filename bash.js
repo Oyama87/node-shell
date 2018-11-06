@@ -6,7 +6,7 @@ process.stdin.on('data', data => {
   if(cmd === 'pwd') {
     process.stdout.write(process.cwd());
   } else {
-    process.stdout.write(`You typed: ${cmd}.`);
+    process.stdout.write(`You typed: ${cmd}. Congratulations!`);
   }
   process.stdout.write('\nprompt > ');
 })
